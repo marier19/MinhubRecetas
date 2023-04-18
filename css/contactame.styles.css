@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(https://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.contenedorNavbar {
+    /* width: 100%; */
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+
+}
+
+
+.contenedorNavbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorNavbar li {
+    list-style-type: none;
+    font-weight: lighter;
+    font-size: 22px;
+    color: black;
+    border: 1px black solid;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    background-color: rgba(240, 255, 240, 0);
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+
+}
+ 
+
+.logosrc {
+display: flex;
+/* width: 2px; */
+height: 55px;
+}
+
+.multimg_img {
+    height: 350px;
+    padding: 20px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
+    flex-direction: column;
+   
+    
+
+}
+
+.titulo {
+    padding: 10px;
+    margin: 0px;
+}
+
+ 
+*
+{
+box-sizing: border-box;}
+
+
+form {
+    
+    /* padding-top: 990px; */
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #43290800;
+    box-shadow: 0px 0px 20px 2px;
+    background-attachment: fixed;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+form label {
+    width: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 99%;
+    padding: 3px 0px; 
+    border: 1px solid #2e2602d7;
+    border-radius: 3px;
+    background-color: #5d51140c;
+    margin: 8px 0;
+}
+
+form input[type="submit"] {
+    width: 100px;
+    padding:  16px;
+    margin: top 32px;
+    border: 2px solid #181403d7;
+    border-radius: 9px;
+    display: flex;
+    color: solid #181403d7;
+    background-color: #00000000;
+    box-shadow: 9px 0px 26px 0px;
+    flex-direction: column;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #0e0c01d3;
+    border-radius: 3px;
+    background-color: #c4bc9900;
+    margin: 8px 0;
+    resize: none;
+    display: flex;
+}
+
+
+.derech {
+    position: absolute;
+    left: 70px;
+    margin-top: -150px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .multimg_img {
+        width: 50vh;
+        margin: 0px 150px 0px 0px;
+        padding: 10px;
+        float: right;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+    }
+
+
+    form {
+        width: 60%;
+        padding-top: 40px;
+        border-radius: 20px;
+        margin: 380px 0px 0px 120px;
+        background-color: #43290800;
+        box-shadow: 9px 0px 26px 0px;
+    }
+
+    form label {
+        width: 20px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .derech {
+        position: absolute;
+        left: 20px;
+        margin-top: 20px;
+    }
+}
+
+
+@media (min-width: 990px) and (max-width:1440px) {
+
+
+    .multimg_img {
+        width: 90vh;
+        margin: 0px 55px 18px 0px;
+        padding: 10px;
+        float: right;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+    }
+
+
+    form {
+        width: 30%;
+        padding-top: 0px;
+        border-radius: 20px;
+        /* margin: 230px 10px 60px 20px;  */
+        background-color: #43290800;
+        box-shadow: 9px 0px 26px 0px;
+    }
+
+    form label {
+        width: 60px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .derech {
+        position: absolute;
+        left: 20px;
+        margin-top: 60px;
+    }
+
+}
+
+
+
+
+/*responsive*/
+@media screen and (max-width:668px) { 
+
+    .contenedorNavbar {
+        flex-direction: column;
+        display: flex;
+        margin: 9px 0px 0px 18px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+
+    .logosrc {
+        display: flex;
+        width: 20px;
+        height: 70px;
+        justify-content: space-around;
+    }
+
+    .multimg_img {
+        width: 30vh;
+        height: 100%;
+        margin: 1px 76px 1px 0px;
+        padding: 10px;
+        float: right;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+    }
+
+
+    form {
+        width: 80%;
+        padding-top: 10px;
+        border-radius: 20px;
+        margin: 180px 10px 0px 30px;
+        background-color: #43290800;
+        box-shadow: 9px 0px 26px 0px;
+    }
+
+    form label {
+        width: 22px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .derech {
+        position: absolute;
+        left: 20px;
+        margin-top: 15px;
+    }
+
+}
